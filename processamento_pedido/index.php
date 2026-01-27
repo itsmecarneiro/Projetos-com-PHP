@@ -38,4 +38,4 @@ if (is_string($resultado)){
     echo validarBeneficio($resultado);
     }
 
-
+?>
