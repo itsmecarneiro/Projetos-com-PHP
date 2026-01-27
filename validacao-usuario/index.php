@@ -1,17 +1,16 @@
 <?php
 
-$Nome = "Dario";
-$Idade = 19;
-$Email = "email@example.com";
+$Nome = null;
+$Idade = null;
+$Email = null;
 
 function validarUsuario(?string $nome, ?int $idade, ?string $email)
 {
     if ($nome === null || $idade === null || $email === null) {
         return "Dados Nulos";
     }
-
     if ($nome === '' || $idade < 0 || $email === '') {
-        return "Dados vaios ou idade menor do que ero";
+        return "Dados vazios ou idade menor do que zero";
     }
 
     if($idade < 18) {
@@ -19,10 +18,9 @@ function validarUsuario(?string $nome, ?int $idade, ?string $email)
     }
 
     return "Tudo certo";
-
-
 }
 
 $validacao = validarUsuario($Nome, $Idade, $Email);
 
 echo $validacao;
+?>
