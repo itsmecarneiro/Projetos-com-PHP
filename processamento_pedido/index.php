@@ -1,5 +1,5 @@
 <?php
-$Produto = '   a    Camisa';
+$Produto = null;
 $Quantidade = null;
 $Preco_unitario = null;
 
