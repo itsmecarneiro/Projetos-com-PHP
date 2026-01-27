@@ -1,7 +1,6 @@
 <?php
-
-$Usuario = 'jessica';
-$Senha = 123;
+$Usuario = null;
+$Senha = null;
 
 function validarUsuario(?string $usuario, ?string $senha) 
 {
@@ -21,7 +20,6 @@ function validarUsuario(?string $usuario, ?string $senha)
     }
     
     return "Login feito com sucesso!";
-
 }
 
 $validacao = validarUsuario($Usuario, $Senha);
