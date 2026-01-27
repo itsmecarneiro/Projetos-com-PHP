@@ -1,5 +1,4 @@
 <?php
-
 $Produto = '   a    Camisa';
 $Quantidade = null;
 $Preco_unitario = null;
@@ -21,8 +20,6 @@ function validarPedido(? string $produto, ? int $quantidade, ? float $preco_unit
      return $quantidade * $preco_unitario;
 }
 
-
-
 function validarBeneficio(float $total){
     if ($total >= 100){
         return "Pedido Aprovado com Desconto!";
@@ -37,5 +34,4 @@ if (is_string($resultado)){
     echo 'Total: R$ ' . number_format($resultado, 0, ',', '.') . PHP_EOL;
     echo validarBeneficio($resultado);
     }
-
 ?>
