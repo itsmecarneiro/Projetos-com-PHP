@@ -1,8 +1,6 @@
 <?php
-//CALCULO DE MEDIA
-
-$Nota1 = 7;
-$Nota2 = 10;
+$Nota1 = null;
+$Nota2 = null;
 
 function validarNota(? int $nota1, ? int $nota2){
     if ($nota1 === null || $nota2 === null) {
@@ -16,9 +14,8 @@ function validarNota(? int $nota1, ? int $nota2){
         return "APROVADOOOO!";
     }
         return "Reprovado.";
-    
 }
-
 $validacao = validarNota($Nota1, $Nota2);
 
 echo $validacao;
+?>
