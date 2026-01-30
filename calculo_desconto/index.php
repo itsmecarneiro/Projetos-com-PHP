@@ -28,3 +28,5 @@ function calculoDesconto(?float $valorProduto, ?int $quantidade)
 }
 
 echo calculoDesconto($valorProduto, $Quantidade);
+
+?>
