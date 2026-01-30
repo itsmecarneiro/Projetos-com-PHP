@@ -1,7 +1,7 @@
 <?php
 
 $valorProduto = null;
-$Quantidade = null;
+$quantidade = null;
 
 function calculoDesconto(?float $valorProduto, ?int $quantidade)
 {
