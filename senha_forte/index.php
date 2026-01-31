@@ -22,3 +22,4 @@ function validarSenha(?string $senha): string
     return "Senha válida!";
 }
 echo validarSenha($senha);
+?>
