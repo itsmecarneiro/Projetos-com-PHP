@@ -66,3 +66,4 @@ if ($resultadoNota !== "Nota válida!") {
 echo "Comentário: " . $comentario . PHP_EOL;
 echo "Nota: " . $nota . PHP_EOL;
 echo "Classificação: " . classificarAvaliacao($nota);
+?>
